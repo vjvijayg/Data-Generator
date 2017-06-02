@@ -1,0 +1,59 @@
+/**
+* DataGenerator
+*
+* @package      datagenerator.css
+* @author       Rohith
+* @since        Version 1.0
+*/
+/*-----------------------------------------------------------------*/
+
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: "Trebuchet MS";
+    margin: 0px;
+}
+h2.pageHeader {
+    background: #0c86ae none repeat scroll 0 0;
+    box-shadow: 0 3px 4px #555;
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+div.contentContainer{
+    box-shadow: 0 5px 2px 2px #d2d2d2;
+    margin: 0 auto;
+    padding: 25px;
+    width: 1000px;
+    
+}
+table#rowsContainer {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+}
+table th {
+    text-align: left;
+}
+table th, table td {
+    border: 1px solid #aaa;
+    padding: 5px;
+}
+select.dataType {
+    width: 100%;
+}
+.columnName {
+    width: 100%;
+}
+hr {
+    border: 1px solid #ededed;
+}
+input[type="button"],input[type="submit"] {
+    background: green none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff;
+    padding: 10px 20px;
+}
